@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 API : https://github.com/MarceloFonseca/tasks-api/
 
-Open [http://localhost:8080](http://localhost:8080) to view tasks on app.
+Run on [http://localhost:8080](http://localhost:8080) to view tasks on challenge-fe app.
 
 ### `npm start`
 
