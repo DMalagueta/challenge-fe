@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Require Tasks api
+
+API : https://github.com/MarceloFonseca/tasks-api/
+
+Open [http://localhost:8080](http://localhost:8080) to view tasks on app.
+
 ### `npm start`
 
 Runs the app in the development mode.\
