@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,94 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+  text-align: center;
+  padding:10px;
+  height: 10vh;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 100%);
+}
+
+nav{
+  width:10vw;
+  text-align: center;
+  position:absolute;
+  margin-top:10px;
+  position:fixed;
+}
+
+.taskList{
+  width:80vw;
+  margin-left:10vw;
+  padding: 20px;
+  height: 90vh;
+}
+
+nav p{
+
+ padding: 10px 0;
+ margin: 10px;
+ transform: scale(1);
+ border-radius: 10px;
+ background: rgb(179,179,182);
+ background: linear-gradient(0deg, rgba(179,179,182,1) 0%, rgba(214,214,217,1) 40%, rgba(255,255,255,1) 100%);
+ box-shadow: 1px 0px 2px 0px #000000;
+ transition:0.3s
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav a:hover{
+  color:black;
+}
+nav p:hover{
+  transform:scale(1.1);
+}
+
+ul{
+  list-style: none;
+}
+
+span{
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top:10px;
+}
+
+.active{
+  color: rgb(89, 95, 98);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.socials li{
+  display: inline;
+  margin:10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+
+}
+
+.socials a:hover{
+  color:gray;
+}
+
+.name {
+  font-family: 'WindSong', cursive;
+}
+
+.taskicon {
+  position:absolute;
+  left:0;
+  padding:10px 50px;
+  font-size:3em;
 }
